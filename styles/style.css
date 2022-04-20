@@ -11,17 +11,14 @@ body {
 
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
 
-    /* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
-
-    /* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
+--gold-crayola: #E9C490ff;
+--coyote-brown: #8E6234ff;
+--indian-yellow: #D7A050ff;
+--rich-black-fogra-39: #060906ff;
+--sapphire: #2457B1ff;
+--rocket-metallic: #888180ff;
+--prussian-blue: #143368ff;
+--dark-moss-green: #505D2Eff;
 
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
@@ -38,10 +35,15 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-color: var(--sapphire);
+}
+
+body {
+    background-color: var(--sapphire);
 }
 
 section {
-    background-color: var(--color5);
+    background-color: var(--indian-yellow);
     max-width: 80%;
     display: flex;
     flex-direction: column;
@@ -51,7 +53,7 @@ section {
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
+    border: solid 2px var(--rich-black-fogra-39);
 }
 
 header {
@@ -60,6 +62,7 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: var(--rocket-metallic);
 }
 
 h2 {
