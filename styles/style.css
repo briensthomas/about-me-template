@@ -79,6 +79,9 @@ p {
     margin: var(--gutter);
 }
 
+.hidden {
+    display: none;
+}
 footer {
     position: fixed;
     width: 100%;
